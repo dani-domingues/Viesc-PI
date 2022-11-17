@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
+import UserInfo from "./components/UserInfo";
 import Menu from "./components/Menu";
 import TimeLine from "./components/TimeLine";
 import config from '../../config.json';
 import Login from "../Login";
-import { PRERENDER_REVALIDATE_ONLY_GENERATED_HEADER } from "next/dist/server/api-utils";
+import Footer from './components/Footer'
+
 
 
 function Home() {
@@ -37,10 +38,11 @@ function Home() {
                 flex: 1,
             }}>
                 <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
-                <Header />
+                <UserInfo />
                 <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
                     Conteúdo
                 </TimeLine>
+                <Footer></Footer>
             </div>
 
         </>

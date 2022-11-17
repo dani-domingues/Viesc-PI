@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const StyledHead = styled.div`
+// Estilização das informações do usuario
+export const StyledUserInfo = styled.div`
+
     img {
         width: 70px;
         height: 70px;
@@ -16,5 +18,6 @@ export const StyledHead = styled.div`
       color: #262627;
       font-family: Verdana;
     }
+
 
 `;

@@ -1,14 +1,14 @@
 import React from "react";
 import config from '../../../../config.json';
-import { StyledHead } from "./header-styles";
+import { StyledUserInfo } from "./userInfo-styles";
 import { StyledBanner } from "./banner-styles";
 
 
-function Header() {
+function UserInfo() {
 
   return (
 
-    <StyledHead>
+    <StyledUserInfo>
       <StyledBanner bg={config.bg} />
       <section className="user-info">
         {/*<img src="banner" />*/}
@@ -22,8 +22,8 @@ function Header() {
           </p>
         </div>
       </section>
-    </StyledHead>
+    </StyledUserInfo>
   )
 }
 
-export default Header;
+export default UserInfo;
