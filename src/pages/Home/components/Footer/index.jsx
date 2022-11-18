@@ -1,8 +1,12 @@
 import React from "react";
+import {StyledFooter} from './footer-styled';
 
 function Footer(){
     return (
-        <div> Feito por Daniela Domingues</div>
+        <StyledFooter>
+             <div> Feito por Daniela Domingues</div>
+        </StyledFooter>
+       
     )
 }
 

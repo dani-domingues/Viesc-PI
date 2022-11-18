@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import UserInfo from "./components/UserInfo";
-import Menu from "./components/Menu";
+import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
 import config from '../../config.json';
 import Login from "../Login";
@@ -37,7 +37,7 @@ function Home() {
                 flexDirection: "column",
                 flex: 1,
             }}>
-                <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+                <Header valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                 <UserInfo />
                 <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
                     Conteúdo

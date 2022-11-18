@@ -12,7 +12,22 @@ function Login() {
         <StyledLogin>
             <h1>Faça o login na sua conta</h1>
 
-            <BotaoDeIcone>Faça login com o facebook</BotaoDeIcone>
+            <BotaoDeIcone>
+                <img src='../../../facebook.png'/>
+                <div>Faça login com o facebook</div> 
+            </BotaoDeIcone>
+            <BotaoDeIcone>
+                <img src='../../../google.png'/>
+                <div>Faça login com o Google</div> 
+            </BotaoDeIcone>
+            Email:   
+            <input>
+            </input> 
+            <br/>
+            <br/>
+            Senha: 
+            <input>
+            </input>
         </StyledLogin>
 
 
