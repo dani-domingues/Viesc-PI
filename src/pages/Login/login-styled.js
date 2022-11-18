@@ -25,4 +25,42 @@ export const StyledLogin = styled.div`
         margin-top: 3px;
     }
 
+    .form-input{
+        text-align: left;
+
+
+        label{
+            display: block;
+        }
+        input{
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 16px;
+            outline: none;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 280px;
+            transition: 0.3s;
+
+            &:hover{
+                border: 1px solid #D90479;
+            }
+        }
+    }
+
+    .footerLogin{
+        font-size: 16px;
+        a{
+            font-weight: bold;
+            margin-left: 5px;
+            color: #D90479;
+            transition: 0.4s;
+            cursor: pointer;
+
+            &:hover{
+                color:#D9065644
+            }
+        }
+    }
+
 `;

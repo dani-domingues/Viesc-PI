@@ -22,3 +22,14 @@ export const BotaoDeIcone = styled.button`
     }
 
 `;
+
+export const BotaoDefault = styled(BotaoDeIcone)`
+    background-color: #0762D9;
+    color: #ffffff;
+    display: inline;
+
+    &:hover{
+        background-color: #05C7F2;
+    }
+
+`;
