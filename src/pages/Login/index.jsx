@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Link} from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 import { StyledLogin } from './login-styled';
 import { BotaoDeIcone, BotaoDefault } from '../../components/Styled'
@@ -8,9 +8,13 @@ import { BotaoDeIcone, BotaoDefault } from '../../components/Styled'
 function Login() {
 
     return (
-        
+        //<BrowserRouter>
             <StyledLogin>
-                <h1>Faça o login na sua conta</h1>
+                
+                <img className="logo" src='../../../logo-viesc.png.png' />
+            
+                <h1>Faça login e comece a usar</h1>
+                
 
                 <BotaoDeIcone>
                     <img src='../../../facebook.png' />
@@ -37,14 +41,14 @@ function Login() {
                     <BotaoDefault>
                         ENTRAR
                     </BotaoDefault>
-                    </form>
-                    <div className="footerLogin">
-                        Não tem uma conta? 
-                        <Link to="/registrar"> Registre-se</Link>
-                    </div>
-                
+                </form>
+                <div className="footerLogin">
+                    Não tem uma conta?
+                    <Link to="/registrar"> Cadastre-se</Link>
+                </div>
+
             </StyledLogin>
-       
+       // </BrowserRouter>
     )
 }
 

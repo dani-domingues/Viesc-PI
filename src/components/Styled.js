@@ -11,9 +11,11 @@ export const BotaoDeIcone = styled.button`
     font-weight: bold;
     margin-bottom: 15px;
     transition: 0.4s;
+    background-color:#EBF4FF;
+    color: #262627;
 
     &:hover {
-        background-color: #ccc;
+        background-color: #CFE0F6;
     }
 
     .center {
@@ -24,12 +26,13 @@ export const BotaoDeIcone = styled.button`
 `;
 
 export const BotaoDefault = styled(BotaoDeIcone)`
-    background-color: #0762D9;
+    background-color: #F29F05;
     color: #ffffff;
     display: inline;
+    color:#262627;
 
     &:hover{
-        background-color: #05C7F2;
+        background-color: #D90479;
     }
 
 `;

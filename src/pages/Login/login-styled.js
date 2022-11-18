@@ -10,8 +10,14 @@ export const StyledLogin = styled.div`
     text-align: center;
     font-family: sans-serif;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px #ccc;
+    box-shadow: 0px 0px 10px #CFE0F6;
+    color:#262627;
     
+    
+    p {
+        font-weight: bold
+
+    }
     h1{
         font-size: 20px;
     }
@@ -24,6 +30,12 @@ export const StyledLogin = styled.div`
     div{
         margin-top: 3px;
     }
+    .logo{
+        width: 300px;
+        margin-top: -30px;
+        margin-bottom: -40px;
+
+    }
 
     .form-input{
         text-align: left;
@@ -31,19 +43,21 @@ export const StyledLogin = styled.div`
 
         label{
             display: block;
+            color:#D90479;
+            font-weight: bold;
         }
         input{
             margin-bottom: 20px;
             padding: 10px;
             font-size: 16px;
             outline: none;
-            border: 1px solid #ccc;
+            border: 2px solid #0762D9;
             border-radius: 5px;
             width: 280px;
             transition: 0.3s;
 
             &:hover{
-                border: 1px solid #D90479;
+                border: 2px solid #05C7F2;
             }
         }
     }
