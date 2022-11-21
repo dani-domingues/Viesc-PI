@@ -1,0 +1,9 @@
+@media screen and (max-width: 4020px){
+    
+    body {
+        padding: auto;
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #eee;
+    }
+}

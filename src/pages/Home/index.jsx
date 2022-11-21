@@ -5,6 +5,7 @@ import TimeLine from "./components/TimeLine";
 import config from '../../config.json';
 import Login from "../Login";
 import Footer from './components/Footer'
+import { StyledHome } from "./home-styled";
 
 
 
@@ -30,16 +31,16 @@ function Home() {
     }
 
     return (
-        <>
+        <StyledHome>
             <div style={{ display: "flex", flexDirection: "column", flex: 1,}}>
                 <Header valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                 <UserInfo />
                 <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
                     Conteúdo
                 </TimeLine>
-                <Footer></Footer>
+                {/* <Footer></Footer> */}
             </div>
-        </>
+        </StyledHome>
 
     );
 }

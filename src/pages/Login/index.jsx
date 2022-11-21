@@ -3,12 +3,15 @@ import { BrowserRouter, Link } from 'react-router-dom';
 
 import { StyledLogin } from './login-styled';
 import { BotaoDeIcone, BotaoDefault } from '../../components/Styled'
-
+import Footer from '../Home/components/Footer'
 
 function Login() {
 
     return (
-        //<BrowserRouter>
+
+    <>
+         {/* TELA DE LOGIN
+        <BrowserRouter> */}
             <StyledLogin>
                 
                 <img className="logo" src='../../../logo-viesc.png.png' />
@@ -48,7 +51,9 @@ function Login() {
                 </div>
 
             </StyledLogin>
-       // </BrowserRouter>
+           
+        {/* </BrowserRouter> */}
+       </>
     )
 }
 
