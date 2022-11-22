@@ -47,7 +47,7 @@ function Login() {
                 </form>
                 <div className="footerLogin">
                     Não tem uma conta?
-                    <Link to="/registrar"> Cadastre-se</Link>
+                    <Link to="/cadastro"> Cadastre-se</Link>
                 </div>
 
             </StyledLogin>
