@@ -1,45 +1,77 @@
 import styled from 'styled-components';
 
-export const StyledHeader = styled.header`
-    /* display: flex;
-    flex-direction: row;
-    height: 75px;
-    justify-content: center;
-    background-color: ${({ theme }) => theme.backgroundLevel1 || "#FFFFFF"};
-    border: 1px solid ${({ theme }) => theme.borderBase || "#e5e5e5"};
-    align-items: center;
-    padding: 0 16px;
-    gap: 16px;
-    width: 100%; */
+export const StyledHeader = styled.div`
 
-    height: 60px;
-    background-color: #F29F05;
-    color: #fff;
-    font-family: sans-serif;
+    height: 70px;
+    background-color: #0762D9;
+    color: #ffff;
 
     .container{
         padding: 5px 20px;
         display: flex;
         align-items: center;
-
     }
+
     .logo{
         flex: 1;
-
+        display: flex;
+        align-items: center;
         img{
             width: 50px;
+            margin-left:15px;
+
         }
-
-
     }
+
     nav{
+        display: flex;
+
         ul{
             display: flex;
+            
         }
             li{
                 list-style: none;
-                margin-left: 20px;
-            }
+                margin-left: 20px; 
+                margin-top : 15px;
+                
+                a{
+                    text-decoration: none;
+                    color: #ffff;
+                    font-size: 14px;
 
+                    &:hover{
+                        color: #D90479;
+                    }
+                }
+            }
+            .avatar{
+                display: flex;
+                align-items: center;
+
+                img{
+                    width: 35px;
+                    border-radius: 20px;
+                    margin-left: 20px;
+                    margin-right:0px;
+                    cursor: pointer;
+                }
+
+                label{
+                    font-size: 14px;
+                    cursor: pointer;
+                    color: #ccc;
+                }
+
+                @media screen  and (max-width: 600px){
+                    label{
+                        display: none;
+                    }
+                }
+                    
+                }
     }
+
+
+    } 
     `;

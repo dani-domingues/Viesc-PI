@@ -43,12 +43,9 @@ function Home() {
     return (
         <StyledHome>
             <div style={{ display: "flex", flexDirection: "column", flex: 1,}}>
-                <Header valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
-                <UserInfo />
-                <VideoCarrossel/>
-                {/* <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
-                    Conteúdo
-                </TimeLine> */}
+                <Header valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} user={user}/>                <VideoCarrossel/>
+                <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
+                </TimeLine>
                 {/* <Footer></Footer> */}
             </div>
         </StyledHome>

@@ -2,22 +2,26 @@ import { Link } from "react-router-dom";
 import Search from "./components/Search";
 import { StyledHeader } from "./menu-styled";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <StyledHeader>
       <div className="container">
         <div className="logo">
-          <img src="../../../logo.png"/>
+          <img src="../../../logobranco.png"/>
         </div>
+
         <nav>
           <ul>
-            <Link to="/login"> Fazer Login </Link>
-            <li> Configurações </li>
-            <li> Sair </li>
+            <li><Link to="/login"> FAZER LOGIN </Link></li>
+            <li><Link to="/cadastro"> CADASTRE-SE</Link></li>
           </ul>
+
+          <div className="avatar">
+          <img src={props.user.avatar}   />
+          <label>{props.user.name}</label>
+          </div>
         </nav>
       </div>
-      <Search />
     </StyledHeader>
   );
 }

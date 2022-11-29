@@ -9,7 +9,7 @@ function UserInfo() {
   return (
 
     <StyledUserInfo>
-      <StyledBanner bg={config.bg} />
+      {/* <StyledBanner bg={config.bg} /> */}
       <section className="user-info">
         {/*<img src="banner" />*/}
         <img src={`https://github.com/${config.github}.png`} />
