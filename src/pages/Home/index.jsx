@@ -6,6 +6,7 @@ import config from '../../config.json';
 import Login from "../Login";
 import Footer from './components/Footer'
 import { StyledHome } from "./home-styled";
+import VideoCarrossel from "./components/VideoCarrossel";
 
 
 
@@ -44,9 +45,10 @@ function Home() {
             <div style={{ display: "flex", flexDirection: "column", flex: 1,}}>
                 <Header valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                 <UserInfo />
-                <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
+                <VideoCarrossel/>
+                {/* <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
                     Conteúdo
-                </TimeLine>
+                </TimeLine> */}
                 {/* <Footer></Footer> */}
             </div>
         </StyledHome>

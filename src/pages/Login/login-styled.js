@@ -4,7 +4,7 @@ export const StyledLogin = styled.div`
 
     background-color: #fff;
     padding: 30px;
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
     margin-top: 20px;
     text-align: center;
@@ -53,7 +53,7 @@ export const StyledLogin = styled.div`
             outline: none;
             border: 2px solid #0762D9;
             border-radius: 5px;
-            width: 280px;
+            width: 340px;
             transition: 0.3s;
 
             &:hover{
