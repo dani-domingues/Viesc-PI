@@ -20,11 +20,11 @@ const VideoCarrossel = () => {
         credit: "video by Mateflix"
         },
         {
-            id:1,
-            title: "video 3",
-            src:'./videos/portuguese01.mp4',
-            credit: "video by PT"
-            },
+        id:1,
+        title: "video 3",
+        src:'./videos/portuguese01.mp4',
+        credit: "video by PT"
+        },
 ]
 
 

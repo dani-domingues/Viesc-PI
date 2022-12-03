@@ -6,6 +6,8 @@ export const StyledVideoCarrossel= styled.div`
     height: 380px;
     margin: auto;
     margin-top: 20px;
+    border-radius: 5%;
+    
 
     .carousel-control-prev{
         height: 300px;

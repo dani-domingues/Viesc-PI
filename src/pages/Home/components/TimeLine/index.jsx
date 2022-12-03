@@ -11,8 +11,10 @@ function TimeLine({searchValue, ...propriedades}) {
           console.log(playlistName);
           console.log(videos);
           return (
+            <>
+            <h2>{playlistName}</h2>
               <section key={playlistName}>
-                  <h2>{playlistName}</h2>
+                
                   <div>
                       {videos.filter((video) => {
                         const titleNormalized = video.title.toLowerCase();
@@ -30,6 +32,7 @@ function TimeLine({searchValue, ...propriedades}) {
                       })}
                   </div>
               </section>
+              </>
           )
         })}
     </StyledTimeline>

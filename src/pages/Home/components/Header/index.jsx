@@ -8,9 +8,12 @@ export default function Header(props) {
       <div className="container">
         <div className="logo">
           <img src="../../../logobranco.png"/>
+          <img className="nome" src="../../../viesc-nome.png"/>
         </div>
 
         <nav>
+          
+        <Search></Search>
           <ul>
             <li><Link to="/login"> FAZER LOGIN </Link></li>
             <li><Link to="/cadastro"> CADASTRE-SE</Link></li>

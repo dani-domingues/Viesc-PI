@@ -46,7 +46,7 @@ function Home() {
                 <Header valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} user={user}/>                <VideoCarrossel/>
                 <TimeLine searchValue={valorDoFiltro} playlists={config.playlists}>
                 </TimeLine>
-                {/* <Footer></Footer> */}
+                <Footer></Footer>
             </div>
         </StyledHome>
 

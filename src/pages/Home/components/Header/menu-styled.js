@@ -5,9 +5,10 @@ export const StyledHeader = styled.div`
     height: 70px;
     background-color: #0762D9;
     color: #ffff;
+    align-items: center;
 
     .container{
-        padding: 5px 20px;
+        padding: 5px 2px;
         display: flex;
         align-items: center;
     }
@@ -18,7 +19,11 @@ export const StyledHeader = styled.div`
         align-items: center;
         img{
             width: 50px;
-            margin-left:15px;
+            }
+        
+            .nome{
+                width: 95px;
+                margin-top:5px;
 
         }
     }
@@ -28,6 +33,7 @@ export const StyledHeader = styled.div`
 
         ul{
             display: flex;
+            
             
         }
             li{
@@ -39,6 +45,7 @@ export const StyledHeader = styled.div`
                     text-decoration: none;
                     color: #ffff;
                     font-size: 14px;
+                    font-weight: bold;
 
                     &:hover{
                         color: #D90479;
@@ -71,7 +78,5 @@ export const StyledHeader = styled.div`
                     
                 }
     }
-
-
-    } 
+ 
     `;

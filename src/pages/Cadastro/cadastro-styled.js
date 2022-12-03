@@ -4,7 +4,7 @@ export const StyledCadastro = styled.div`
 
     background-color: #fff;
     padding: 30px;
-    max-width: 300px;
+    max-width: 340px;
     margin: auto;
     margin-top: 20px;
     text-align: center;
