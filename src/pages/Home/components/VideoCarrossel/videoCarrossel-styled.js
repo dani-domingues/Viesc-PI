@@ -2,18 +2,21 @@ import styled from 'styled-components';
 
 
 export const StyledVideoCarrossel= styled.div`
-    width: 600px;
-    height: 380px;
+    width: auto;
+    height:auto;
     margin: auto;
     margin-top: 20px;
     border-radius: 5%;
+    margin-bottom: 30px;
     
 
     .carousel-control-prev{
         height: 300px;
+        width: -10px;
     }
     .carousel-control-next{
         height: 300px;
+        width: -10px;
     }
     
     .carousel .carousel-control-prev-icon{

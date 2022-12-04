@@ -33,17 +33,18 @@ const VideoCarrossel = () => {
             <Carousel>
                 {videoProperites.map((videoObj) => {
                     return (
-                        <Carousel.Item key={videoObj.id}>
+                        <Carousel.Item key={videoObj.id} interval={1000000} pause='hover'>
                             <ReactPlayer
                                 url={videoObj.src}
                                 pip={true}
                                 controls={true}
                                 playing={true}
                             />
-                            <Carousel.Caption>
+                            {/* <Carousel.Caption>
                                 <h3>{videoObj.title}</h3>
                                 <p>{videoObj.credit}</p>
-                            </Carousel.Caption>
+                            </Carousel.Caption> */}
+
                         </Carousel.Item>
                     )
                 })}
