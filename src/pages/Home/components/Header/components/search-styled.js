@@ -8,12 +8,12 @@ export const StyledSearch = styled.div`
   border-radius: 2px;
   overflow: hidden;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 240px;
   
   
   
   input{
-    width: 600px;
+    width: 1000px;
     height:40px;
     padding: 4px 6px;
     border: 1px solid #555; 

@@ -6,8 +6,11 @@ export const StyledHeader = styled.div`
     background-color: #0762D9;
     color: #ffff;
     align-items: center;
+    
+    
 
     .container{
+        margin-left:30px ;
         padding: 5px 2px;
         display: flex;
         align-items: center;
@@ -29,14 +32,17 @@ export const StyledHeader = styled.div`
     }
 
     nav{
+        margin-right:-500px;
         display: flex;
 
         ul{
+            
             display: flex;
             
             
         }
             li{
+
                 list-style: none;
                 margin-left: 20px; 
                 margin-top : 15px;
@@ -59,8 +65,8 @@ export const StyledHeader = styled.div`
                 img{
                     width: 35px;
                     border-radius: 20px;
-                    margin-left: 20px;
-                    margin-right:0px;
+                    margin-left: 40px;
+                    margin-right:15px;
                     cursor: pointer;
                 }
 

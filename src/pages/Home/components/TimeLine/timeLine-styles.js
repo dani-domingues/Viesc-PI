@@ -32,6 +32,7 @@ export const StyledTimeline = styled.div`
     height: auto;
   }
   section {
+    font-weight: bold;
     width: 100%;
     padding: 0;
     overflow: hidden;

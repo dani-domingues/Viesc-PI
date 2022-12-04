@@ -10,7 +10,7 @@ export default function Search({ valorDoFiltro, setValorDoFiltro }) {
     return (
 
         <StyledSearch>
-            <input type="text" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca} />
+            <input type="text" name="busca" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca}  />
             <button>
                 🔎
             </button>
