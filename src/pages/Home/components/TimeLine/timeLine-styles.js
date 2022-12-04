@@ -33,8 +33,8 @@ export const StyledTimeline = styled.div`
   }
   section {
     font-weight: bold;
+    font-size: 14px;
     width: 100%;
-    padding: 0;
     overflow: hidden;
     padding: 16px;
     div {
@@ -54,6 +54,7 @@ export const StyledTimeline = styled.div`
           padding-top: 8px;
           display: block;
           padding-right: 24px;
+          width: 244px;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
         }
       }
