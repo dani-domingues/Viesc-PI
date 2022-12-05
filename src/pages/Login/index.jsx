@@ -5,7 +5,7 @@ import { StyledLogin } from './login-styled';
 import { BotaoDeIcone, BotaoDefault } from '../../components/Styled'
 import Api from '../../Api';
 
-// Quando onReceiveGoogle chegar, nos iremos retornet para o nosso componente, quando o usuario clica no botão (onClick), ele chama a nossa ação, nossa ação executa a api Api.googleLogin, q é para fazer autenticação com o google, e depois pegamos o resultado e mandamos para nosso arquivo App, para fazer a autenticação e executar. Por fim vai pegar o novo usuario e vai gravar/setar e depois mandar o usuario para nossa tela
+// Quando onReceiveGoogle chegar, nos iremos retornar para o nosso componente, quando o usuario clica no botão (onClick), ele chama a nossa ação, nossa ação executa a api Api.googleLogin, q é para fazer autenticação com o google, e depois pegamos o resultado e mandamos para nosso arquivo App, para fazer a autenticação e executar. Por fim vai pegar o novo usuario e vai gravar/setar e depois mandar o usuario para nossa tela
 
 function Login({ onReceiveGoogle }) {
 

@@ -11,19 +11,50 @@ const VideoCarrossel = () => {
             id: 1,
             title: "Aprendendo a multiplicar - Multiplicação",
             src: "https://www.youtube.com/watch?v=LPJZn9q6mHI&t=25s",
-            credit: "Smile and Learn - Português"
+            
         },
         {
             id: 2,
-            title: "video 2",
-            src: './videos/matematica02.mp4',
-            credit: "video by Mateflix"
+            title: "Substantivos Coletivos",
+            src: "https://www.youtube.com/watch?v=FOQL6-7g2Mg",
+            
+        },
+
+        {
+            id: 3,
+            title: "Como fazer conta de dividir passo a passo",
+            src: 'https://www.youtube.com/watch?v=mWLp20ptbSI',
+           
         },
         {
-            id: 1,
-            title: "video 3",
-            src: './videos/portuguese01.mp4',
-            credit: "video by PT"
+            id: 4,
+            title: "SINÔNIMOS E ANTÔNIMOS",
+            src: 'https://www.youtube.com/watch?v=seAN1_Tg5HI',
+           
+        },
+        {
+            id: 5,
+            title: "A Atmosfera - Camadas da Terra",
+            src: 'https://www.youtube.com/watch?v=p7fYXt-_K9Q',
+           
+        },
+        {
+            id: 6,
+            title: "Verbos",
+            src: 'https://www.youtube.com/watch?v=KmNaSOZ9kb0',
+           
+        },
+        {
+            id: 7,
+            title: "Identificar Retângulos",
+            src: 'https://www.youtube.com/watch?v=Uxm-TqbSnh8',
+           
+        },
+        {
+            id: 2,
+            title: "ELETRICIDADE para crianças ⚡ Episódio 3 💡 Crie um circuito 🔌 Materiais condutores e isolantes",
+            src: 'https://www.youtube.com/watch?v=4bGW7FK1-NE',
+            
         },
     ]
 
